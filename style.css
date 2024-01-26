@@ -26,7 +26,7 @@ nav {
     background-color: #cccccc00;
     z-index: 1000; /* Ensure it appears above other elements on the page */
 }
-}
+
 nav img{
     width: 150px;
 
