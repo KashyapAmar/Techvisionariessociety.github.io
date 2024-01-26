@@ -34,7 +34,7 @@ body {
     padding: 2px 6px;
     justify-content: space-between;
     align-items: center;
-    background-color: #cccccc00;
+    background-color: #cccccc9d;
     z-index: 1000; /* Ensure it appears above other elements on the page */
 }
 
