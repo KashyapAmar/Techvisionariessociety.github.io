@@ -39,13 +39,17 @@ position: relative;
 }
 
 
-nav{
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     padding: 2px 6px;
     justify-content: space-between;
     align-items: center;
     background-color: #cccccc00;
-
+    z-index: 1000; /* Ensure it appears above other elements on the page */
 }
 nav img{
     width: 150px;
