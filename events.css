@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 10px rgb(0, 0, 0);
-    background-color: #cccccc00;
+    background-color: #cccccc5e;
 
 }
 nav img{
@@ -179,7 +179,7 @@ nav .fa{
     height: 550px;
     box-shadow: 0px 0px 30px #000;
     left: 50%;
-    top: 60%;
+    top: 600px;
     transform: translate(-50%, -50%);
     overflow: hidden;
     border-radius: 20px;
@@ -205,7 +205,7 @@ nav .fa{
   }
   
   .one div h2, h1 {
-    color: #000000;
+    color: #ffffff;
   }
   
   .two {
@@ -228,7 +228,7 @@ nav .fa{
   
   .glowing-btn {
       position: relative;
-      color: var(--glow-color);
+      color: (217.66deg 100% 65.56%);
       cursor: pointer;
       padding: 0.35em 0em;
       border: 0.15em solid var(--glow-color);
@@ -433,7 +433,36 @@ nav .fa{
   *::after {
     box-sizing: border-box;
   }
-  
+
+  .facilities{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-right: 60px;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
   .contact11 
   {
     position: relative;
@@ -444,7 +473,7 @@ nav .fa{
     align-items: center;
     flex-direction: column;
     background: #9b97d2;
-    margin-top: 700px;
+    margin-top: 500px;
   }
   .contact11 .content11 
   {
