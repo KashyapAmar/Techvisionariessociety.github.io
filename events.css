@@ -16,7 +16,7 @@ body {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
   h1 {
     font-size: 36px;
@@ -24,21 +24,15 @@ body {
     text-shadow: 0 7px 8px rgba(87,44,-48,145.5);
     align-items: center;
 }
-
-   nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+  nav{
     display: flex;
     padding: 2px 6px;
     justify-content: space-between;
     align-items: center;
-  background-color: #cccccc9d;
-	 box-shadow: 0 0 10px rgb(0, 0, 0);
-    z-index: 1000; /* Ensure it appears above other elements on the page */
-}
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #cccccc00;
 
+}
 nav img{
     width: 150px;
 
@@ -56,7 +50,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 15px;
 }
@@ -75,7 +69,7 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: #fff;
+    color: #000000;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -88,7 +82,7 @@ nav img{
 .text-box p{
     margin: 10px 0 40px ;
     font-size: 14px;
-    color: #fff;
+    color: #000000;
 }
 .text-box img{
     height: 100px;
@@ -97,7 +91,7 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     border: 1px solid;
     padding: 12px 34px;
     font-size: 13px;
@@ -134,7 +128,7 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: #fff;
+        color: #000000;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -182,7 +176,7 @@ nav .fa{
   .container {
     position: absolute;
     width: 280px;
-    height: 540px;
+    height: 460px;
     box-shadow: 0px 0px 30px #000;
     left: 50%;
     top: 60%;
@@ -211,14 +205,14 @@ nav .fa{
   }
   
   .one div h2, h1 {
-    color: #fff;
+    color: #000000;
   }
   
   .two {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #ddd;
+    background: #000000;
     right: -200%;
     transition: 1.5s;
   }
@@ -438,5 +432,204 @@ nav .fa{
   *::before,
   *::after {
     box-sizing: border-box;
+  }
+  
+  .contact11 
+  {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #9b97d2;
+    margin-top: 700px;
+  }
+  .contact11 .content11 
+  {
+    max-width: 800px;
+    text-align: center;
+  }
+  .contact11 .content11 h2 
+  {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+  }
+  .contact11 .content11 p 
+  {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+  .container11 
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .container11 .contactInfo11 
+  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container11 .contactInfo11 .box 
+  {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+  }
+  .container11 .contactInfo11 .box .icon 
+  {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    transition: 0.5s;
+  }
+  .container11 .contactInfo11 .box:hover .icon 
+  {
+    background: #00bcd4;
+    color: #fff;
+  }
+  .container11 .contactInfo11 .box11 .text 
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+  }
+  .container11 .contactInfo11 .box11 .text h3 
+  {
+    font-weight: 500;
+    color: #00bcd4;
+  }
+  .container11 .contactInfo11 .txt
+  {
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 500;
+    padding-left: 10px;
+    border-left: 50px solid #e91e63;
+    line-height: 1em;
+  }
+  .sci11 
+  {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+  }
+  .sci11 li 
+  {
+    list-style: none;
+  }
+  .sci li a 
+  {
+    color: #fff;
+    font-size: 2em;
+    transition: 0.5s;
+  }
+  .sci li a:hover 
+  {
+    color: #00bcd4;
+  }
+  
+  
+  .container11 .contactForm11
+  {
+    position: relative;
+    width: 40%;
+    background: #fff;
+    min-height: 100px;
+    padding: 60px;
+  } 
+  .container11 .contactForm11 h2 
+  {
+    font-size: 2em;
+    color: #333;
+    font-weight: 500;
+  }
+  .container11 .contactForm11 .inputBox 
+  {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .container11 .contactForm11 .inputBox input, 
+  .container11 .contactForm11 .inputBox textarea 
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .container11 .contactForm11 .inputBox span 
+  {
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+    transition: 0.5s;
+  }
+  .container11 .contactForm11 .inputBox input:focus ~ span, 
+  .container11 .contactForm11 .inputBox textarea:focus ~ span,
+  .container11 .contactForm11 .inputBox input:valid ~ span, 
+  .container11 .contactForm11 .inputBox textarea:valid ~ span 
+  {
+    color: #e91e63;
+    font-size: 0.9em;
+    transform: translateY(-20px);
+  }
+  .container11 .contactForm11 .inputBox input[type="submit"]
+  {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  /* lets make it responsive */
+  @media (max-width: 991px)
+  {
+    .contact11
+    {
+      padding: 50px;
+    }
+    .container11
+    {
+      flex-direction: column;
+    }
+    .container11 .contactInfo11,
+    .containe11r .contactForm11
+    {
+      width: 100%;
+    }
+    .container11 .contactForm11
+    {
+      padding: 50px 30px;
+    }
   }
   
