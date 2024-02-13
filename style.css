@@ -354,6 +354,8 @@ p{
     margin-right: 60px;
 }
 .platformss-col img{
+	height:200px;
+	width:200px;
     width: 55%;
     border-radius: 10px;
 }
@@ -365,8 +367,6 @@ p{
 
 }
 .platformsss-col img{
-	height:200px;
-	width:299px;
     width: 100%;
     border-radius: 10px;
 
